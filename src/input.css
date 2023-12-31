@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    .box{
+        box-shadow: 2px 2px 2px 2px white;
+        width:300px;
+        height:310px;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+        background-color: #80636387;
+        color:#fff;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .box {
+            margin-left: 40px;
+        }
+       
+
+    }
+    h1{
+        border-bottom: 2px solid black;
+        border-radius: 20px;
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
